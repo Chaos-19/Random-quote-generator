@@ -15,19 +15,25 @@
 </head>
 
 <body>
-  <div class="container d-flex justify-content-center align-items-center">
+  <div class="container-fluid d-flex flex-column justify-content-center align-items-center">
     <div class="row">
-      <div class="col border border-5 rounded border-primary shadow p-md-5 py-4">
+      <div class="col border border-5 rounded border-primary shadow p-md-5 py-4 quote-container">
         <figure class="text-center">
           <blockquote class="blockquote" id="quote">
-            <p class="fs-2">Well known quote, contain in blockqoute element .</p>
+            <p class="fs-2 quotebord" >Well known quote, contain in blockqoute element .</p>
           </blockquote>
           <figcaption class="blockquote-footer fs-5" id="author">someone famousin source title</figcaption>
         </figure>
       </div>
     </div>
+    <div class="row mt-5">
+        <div class="col">
+        <button type="button" class="btn btn-primary btn-lg text-capitalize" id="generate">generate</button>
+      </div>
+    </div>
   </div>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- custom javascript -->
+  <script src="/main.js"></script>
 </body>
-
 </html>
