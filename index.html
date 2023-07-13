@@ -6,16 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.84.0">
-  <title>Random quote generator</title>
+  <title>Random quotegenerator</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col border border-5 rounded border-primary shadow p-md-5 py-4">
+        <figure class="text-center">
+          <blockquote class="blockquote" id="quote">
+            <p class="fs-2">Well known quote, contain in blockqoute element .</p>
+          </blockquote>
+          <figcaption class="blockquote-footer fs-5" id="author">someone famousin source title</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
