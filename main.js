@@ -6,9 +6,10 @@ const btnGenerate = document.querySelector('#generate');
 //var randomQuotes = [];
 let index = 0;
 
-//const xhttp = new XMLHttpRequest();
+/* this code will fetch the quote from quote Api so this cod will make xmlHttpRequest and get the quotes */
 
-/*
+
+//const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
 
   if (xhttp.readyState == 4 && xhttp.status == 200) {
@@ -30,6 +31,7 @@ btnGenerate.addEventListener('click', () => {
       author.textContent = "unknown";
     }
     ++index;
+  } else {
+    index = 0;
   }
 })
-
