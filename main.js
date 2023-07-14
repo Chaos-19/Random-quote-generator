@@ -9,7 +9,7 @@ let index = 0;
 /* this code will fetch the quote from quote Api so this cod will make xmlHttpRequest and get the quotes */
 
 
-//const xhttp = new XMLHttpRequest();
+/* const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
 
   if (xhttp.readyState == 4 && xhttp.status == 200) {
